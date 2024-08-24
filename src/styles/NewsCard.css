@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NewsCard {
+    width: 95vw;
+    height: 98vh;
+    background-color:antiquewhite ;
+}
+
+.previewimg {
+    width: auto;
+    max-width: 300px;
+    max-height: 800;
+}
