@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.newsCard {
+    width: 100%;
+    height: 100%;
+}
+
+.previewimg {
+    width: auto;
+    max-width: 600px;
+    border-radius: 15px;
+}

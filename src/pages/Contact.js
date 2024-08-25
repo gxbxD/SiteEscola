@@ -3,8 +3,8 @@ import React from 'react';
 function Contact() {
   return (
     <div>
-      <h1>Contact Us</h1>
-      <p>This is the contact page.</p>
+      <h1>Fale Conosco</h1>
+      <p>Faça sua matrícula agora mesmo!</p>
     </div>
   );
 }

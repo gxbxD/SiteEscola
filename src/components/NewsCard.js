@@ -1,13 +1,12 @@
 import React from "react";
-import styles from '../styles/NewsCard.css'
-import previewimg from '../assets/previewimg.PNG'
+import styles from '../styles/NewsCard.module.css'
 
-function Newscard () {
+function Newscard ({Titulo, img, Resumo, imgwidth = 500}) {
     return (
-        <div className={styles.Newscard} >
-            <h1>Título</h1>
-            <img className={styles.previewimg} alt='preview' src= {previewimg} width={300}></img>
-            <p>Resumo da postagem aqui:</p>
+        <div className={styles.newscard} >
+            <h1>{Titulo}</h1>
+            <img className={styles.previewimg} alt='preview' src= {img} width={imgwidth}></img>
+            <p>{Resumo}</p>
         </div>
     )
 }

@@ -17,7 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
+      <footer>Gabriel D'angelo 2024</footer>
     </Router>
   );
 }
