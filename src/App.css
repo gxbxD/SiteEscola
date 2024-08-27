@@ -1,7 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 footer {
   background-color: rgb(5, 73, 172);
   width: 100vw;
-  height: 15vh;
+  height: 13vh;
   justify-content: center;
   align-items: center;
 }
