@@ -22,6 +22,7 @@
 }
 
 nav {
+    color: antiquewhite;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,10 +46,4 @@ li > a {
     font-weight: bold;
     font-size: 1.2rem;
     padding: 0.2rem;
-}
-
-li :hover {
-    background-color: cornflowerblue;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px black;
 }

@@ -1,0 +1,38 @@
+.footer {
+    background-color: rgb(5, 73, 172);
+    width: 100%;
+    min-height: 13vh;
+  }
+
+  .footer > .session {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .menu > ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact > ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+ li > a {
+    text-decoration: none;
+    font-weight:normal;
+  }
+
+  footer {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+  }

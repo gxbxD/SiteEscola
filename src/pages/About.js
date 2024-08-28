@@ -4,8 +4,10 @@ import styles from '../pages_styles/About.module.css'
 function About() {
   return (
     <div className={styles.main}>
-      <h1>Sobre nós</h1>
+      <h1>Quem nós somos:</h1>
+      <section>
       <p>This is the about page.</p>
+      </section>
     </div>
   );
 }
