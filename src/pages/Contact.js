@@ -5,7 +5,8 @@ function Contact() {
   return (
     <div className={styles.main}>
       <h1>Fale Conosco</h1>
-      <svg
+      <a href="https://api.whatsapp.com/send?phone=5561985863634&text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20uma%20matr%C3%ADcula." target='_blank'>
+        <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512"
         id="IconChangeColor"
@@ -19,6 +20,7 @@ function Contact() {
           fill="green"
         />
       </svg>
+      </a>
       <h1>Faça sua matrícula agora mesmo!</h1>
 
     </div>
