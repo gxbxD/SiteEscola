@@ -5,11 +5,24 @@
 }
 
 .main {
+    height: 60vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align:center;
-    min-height: 40vw;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.newscard > a {
+    text-decoration: none;
+}
+
+.firstsec{
+    width: 100%;
     padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }

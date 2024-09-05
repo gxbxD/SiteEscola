@@ -14,7 +14,10 @@ function Header() {
           <Link to="/contact">Fale conosco</Link>
         </li>
         <li>
-          <Link to="/about">Sobre Nós</Link>
+          <Link to="/about">Quem nós somos</Link>
+        </li>
+        <li>
+          <Link to='/metodo'>Como educamos</Link>
         </li>
         <li>
           <Link to="/">Início</Link>

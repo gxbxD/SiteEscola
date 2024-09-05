@@ -1,23 +1,31 @@
 import { useState } from 'react';
 import React from "react";
 import styles from '../pages_styles/Login.module.css'
+import { Link } from 'react-router-dom';
+import back from '../assets/arrow-left.svg'
 
 
 function Login() {
-    const [login, setLogin] = useState('');
-    const [senha, setSenha] = useState('');
-  
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      // Lógica para processar o login pode ser adicionada aqui
-      console.log('Login:', login, 'Senha:', senha);
-    };
-  
-    return (
-      <div className="login-container">
-        <form onSubmit={handleSubmit} className="login-form">
+  const [login, setLogin] = useState('');
+  const [senha, setSenha] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Lógica para processar o login pode ser adicionada aqui
+    console.log('Login:', login, 'Senha:', senha);
+  };
+
+  return (
+    <div className={styles.main}>
+      <div className={styles.backdiv}>
+        <Link to='/'>
+            <img src={back} className={styles.back} alt='back'></img>
+        </Link>
+      </div>
+      <div className={styles.login_container}>
+        <form onSubmit={handleSubmit} className={styles.login_form}>
           <h2>Login</h2>
-          <div className="form-group">
+          <div className={styles.form_group}>
             <label htmlFor="login">Login:</label>
             <input
               type="text"
@@ -27,7 +35,7 @@ function Login() {
               required
             />
           </div>
-          <div className="form-group">
+          <div className={styles.form_group}>
             <label htmlFor="senha">Senha:</label>
             <input
               type="password"
@@ -37,10 +45,11 @@ function Login() {
               required
             />
           </div>
-          <button type="submit">Entrar</button>
+          <button type="submit" className={styles.button}>Entrar</button>
         </form>
       </div>
-    );
-  }
-  
-  export default Login;
+    </div>
+  );
+}
+
+export default Login;

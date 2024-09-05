@@ -2,17 +2,21 @@ import React from 'react';
 import styles from '../pages_styles/Home.module.css'
 import previewimg from '../assets/previewimg.PNG'
 import Newscard from '../components/NewsCard';
+import CalendarioEventos from '../components/CalendarioEventos';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
     <div className={styles.main}>
-      <h1>Centro de Ensino Sousa&Sousa EducArt</h1>
-      <p>Educando com amor desde 2014.</p>
-      <Newscard
-      Titulo='Quem nós somos:'
+      <section className={styles.firstsec}>
+      <Newscard className={styles.newscard}
+      Titulo=<Link to='/about'>Quem nós somos:</Link>
       img={previewimg}
-      Resumo='Nós somos uma escola focadas em...'
+      Resumo='Nós somos uma escola focada em...'
       />
+
+      <CalendarioEventos />
+      </section>
     </div>
   );
 }

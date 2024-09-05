@@ -4,3 +4,9 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color: #E22F29;
+  text-align: center;
+  color: aliceblue;
+  padding: 0.2rem;
+}
