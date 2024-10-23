@@ -8,6 +8,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Login from './pages/Login';
 import Metodo from './pages/Metodo';
+import Niveis from './pages/Niveis';
+import Infraestrutura from './pages/Infraestrutura';
+import GradeHoraria from './pages/GradeHoraria';
 
 function App() {
   const location = useLocation();
@@ -24,6 +27,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path='/login' element={<Login />} />
         <Route path='/metodo' element={<Metodo />} />
+        <Route path='/niveis' element={<Niveis />} />
+        <Route path='/infraestrutura' element={<Infraestrutura />} />
+        <Route path='/grade' element={<GradeHoraria />} />
       </Routes>
       {!noHeaderFooterRoutes.includes(location.pathname) && <Footer />}
     </>

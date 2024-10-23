@@ -46,3 +46,7 @@
     background-color: rgb(5, 73, 172);
     border-radius: 20px;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
