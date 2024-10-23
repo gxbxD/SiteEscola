@@ -1,0 +1,48 @@
+.niveis {
+    display: flex;
+}
+
+.niveispreview {
+    width: 25%;
+    height: 100%;
+}
+
+.niveis ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.niveis ul li {
+    background-color: rgb(5, 73, 172);
+    margin: 0.3rem;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.niveis1 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+
+.niveis1 h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.niveis1 p {
+    padding-bottom: 2rem;
+}
+
+.niveis1 button {
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    background-color: rgb(5, 73, 172);
+    border-radius: 20px;
+}

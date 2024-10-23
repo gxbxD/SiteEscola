@@ -5,13 +5,13 @@
 }
 
 .main {
-    height: 60vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 2rem 0;
+    margin: -5rem 0;
 }
 
 .newscard > a {
@@ -20,9 +20,37 @@
 
 .firstsec{
     width: 100%;
-    padding: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.stylesec1 {
+    background: rgb(5, 73, 172); /* Cor de fundo semelhante a papel */
+    clip-path: polygon(0% 0%, 100% 0%, 95% 15%, 90% 5%, 85% 20%, 75% 10%, 60% 25%, 50% 10%, 35% 20%, 20% 5%, 10% 15%, 0% 5%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 15vh;
+    width: 100%;
+}
+
+.stylesec2 {
+    background: rgb(5, 73, 172); /* Cor de fundo semelhante a papel */
+    clip-path: polygon(0% 0%, 100% 0%, 95% 15%, 90% 5%, 85% 20%, 75% 10%, 60% 25%, 50% 10%, 35% 20%, 20% 5%, 10% 15%, 0% 5%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 15vh;
+    width: 100%;
+    transform: rotate(180deg);
+    margin-bottom: 10vh;
+    margin-top: -11vh;
+    margin-bottom: 0;
+}
+
+.thirdsec {
+    padding: 0;
+    margin-top: -10vh;
+}
+
+.fourthsec {
+    margin-bottom: 10vh;
 }

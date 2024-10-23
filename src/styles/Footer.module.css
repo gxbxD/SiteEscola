@@ -2,6 +2,7 @@
     background-color: rgb(5, 73, 172);
     width: 100%;
     min-height: 13vh;
+    z-index: 999;
   }
 
   .footer > .session {

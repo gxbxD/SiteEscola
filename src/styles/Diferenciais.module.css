@@ -1,0 +1,46 @@
+.diferenciais {
+    display: flex;
+}
+
+.diferenciais ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-right: 2rem;
+    justify-content: center;
+}
+
+.diferenciais ul li {
+    background-color: rgb(5, 73, 172);
+    margin: 0.3rem;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.diferencial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 50vw;
+}
+
+.diferencial h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.diferencial h2 {
+    padding-bottom: 1rem;
+}
+
+.diferencial button {
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    background-color: rgb(5, 73, 172);
+    border-radius: 20px;
+    margin-top: 5%;
+}
