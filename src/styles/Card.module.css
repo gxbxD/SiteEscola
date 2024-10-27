@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    gap: 4rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 99%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.info {
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.text {
+    font-size: 1em;
+    color: #555;
+}

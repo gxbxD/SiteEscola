@@ -1,0 +1,22 @@
+.matriculese {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 15vw;
+    max-height: 20vh;
+    position: fixed;
+    top: 50vh;
+    left: 88vw;
+    text-align: center;
+    z-index: 999;
+}
+
+.matriculese img {
+    max-width: 12vw;
+}
+
+.matriculese h1 {
+    font-style: italic;
+    font-size: small;
+}

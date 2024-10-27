@@ -14,14 +14,24 @@
     margin: 1rem;
 }
 
-.niveis ul li {
+.niveis ul li button {
     background-color: rgb(5, 73, 172);
     margin: 0.3rem;
     color: white;
+    border: none;
     border-radius: 15px;
+    width: 8rem;
+    height: 2.5rem;
     text-align: center;
     padding: 0.5rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
+
+.niveis ul li button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(5, 73, 172, 0.6);
+    transform: scale(1.05);
+}
+
 
 .niveis1 {
     display: flex;

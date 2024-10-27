@@ -1,0 +1,18 @@
+.main {
+    text-align: center;
+    align-items: center;
+    min-height: 20vh;
+    width: 100%;
+}
+
+.contacticos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.contacticos img {
+    max-width: 8vw;
+}

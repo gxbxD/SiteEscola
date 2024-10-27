@@ -11,6 +11,7 @@ import Metodo from './pages/Metodo';
 import Niveis from './pages/Niveis';
 import Infraestrutura from './pages/Infraestrutura';
 import GradeHoraria from './pages/GradeHoraria';
+import Matriculese from './components/Matriculese';
 
 function App() {
   const location = useLocation();
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
     <header>Educando com amor desde 2014!</header>
+    <Matriculese />
       {!noHeaderFooterRoutes.includes(location.pathname) && <Header />}
       <Routes>
         <Route path="/" element={<Home />} />

@@ -45,6 +45,18 @@
     align-items:flex-start;
     padding: 2rem;
     justify-content:center;
+    color: white;
+    gap: 2rem;
+}
+
+.info button {
+    align-self: center;
+    background-color: rgb(5, 73, 172);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 6rem;
+    height: 2rem;
 }
 
 .imgdiv {

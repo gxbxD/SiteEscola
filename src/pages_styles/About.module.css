@@ -4,10 +4,34 @@
     box-sizing: border-box;
 }
 
+.titulo {
+    align-self: center;
+}
+
 .main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    text-align: justify;
     min-height: 65vh;
-    margin-top: 10vh;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.section {
+    max-width: 75vw;
+}
+
+.resume {
+    display: flex;
+    gap: 1.5rem;
+    max-width: 75vw;
+}
+
+.img {
+    max-width: 20vw;
+}
+
+.imgdiv {
+    width: 20vw;
 }
